@@ -65,7 +65,7 @@ class Jogador(JogoVelha):
                   else:
                       print("Posição já ocupada. Tente novamente.")
               except ValueError as e:
-                  print(f"Apenas números são aceitos, tente novamente.\n")
+                  print(f"Apenas números de 1 a 9 são aceitos, tente novamente.\n")
 
           self.exibir_tabuleiro()
           
